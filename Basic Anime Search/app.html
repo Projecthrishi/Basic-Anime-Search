@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie searching app</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-[#283A57] h-screen py-10 px-10">
+    <nav class="mt-6 flex justify-center items-center px-2 py-4">
+      <ul class="flex flex-row justify-center items-center gap-12">
+        <li class="hover:text-yellow-500 font-semibold text-md m-3 text-white">
+          <a href="#">HOME</a>
+        </li>
+        <li class="hover:text-yellow-500 font-semibold text-md m-3 text-white">
+          <a href="">MOVIES</a>
+        </li>
+        <li class="hover:text-yellow-500 font-semibold text-md m-3 text-white">
+          <a href="">TV SERIES</a>
+        </li>
+        <li class="hover:text-yellow-500 font-semibold text-md m-3 text-white">
+          <a href="">MOST POPULAR</a>
+        </li>
+        <li class="hover:text-yellow-500 font-semibold text-md m-3 text-white">
+          <a href="">TOP AIRING</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="flex flex-col justify-center items-center py-2">
+      <div
+        class="h-[32rem] w-[72rem] bg-[#FEFEFB]/20 rounded-md px-3 py-4 flex flex-row justfy-between items-start"
+      >
+        <div
+          class="flex flex-col justify-start items-start gap-y-4 w-[50%] px-4 py-4"
+        >
+          <div class="flex flex-col justify-start">
+            <h1 class="text-2xl font-extrabold white">
+              Welcome To <span class="text-yellow-500"> Anime Dekho👀</span>
+            </h1>
+            <p class="text-lg text-yellow-50">
+              AnimeSuge is a free streaming anime website that allows you to
+              watch anime online in English subbed and dubbed. Join us and watch
+              anime online for free with ease. Easy access and no registration
+              is required. Our content is updated daily with fast streaming
+              servers and great features that help you easily track and watch
+              your favorite anime. We are confident AnimeSuge is the best free
+              anime streaming site in the space that you can't simply miss!
+            </p>
+          </div>
+          <div class="flex flex-row justify-between items-center gap-3">
+            <button class="py-4 px-4 rounded-md bg-yellow-300 text-black">
+              Watch now
+            </button>
+
+            <button class="py-4 px-4 rounded-md bg-yellow-50 text-black">
+              Explore More <span class="text-lg">&rarr;</span>
+            </button>
+          </div>
+          
+         
+        </div>
+              <div class="flex flex-col w-[48%] justify-center items-center">
+                <div class="h-[25rem] w-[25rem] rounded-full border-2 border-yellow-500 overflow-hidden ">
+                <img src="images.jpeg" height="500" width="500" class="object-coover ">
+              </div>
+        
+        </div>
+     </div>
+
+  </div>
+  <div class="mt-5 flex flex-row w-[60rem] justify-center items-center gap-4">
+    <input type="text" class="w-[50%] rounded-md border-1 color-white bg-yellow-50
+    px-4 py-2
+    " placeholder="search your fav anime🔎">
+    <button class="px-4 py-2 rounded-md bg-yellow-500 text-black font-extrabold">
+      search
+
+    </button>
+
+  </div>
+
+    </section>
+
+    <section class="flex flex-col justify-start items-center gap-y-4 mt-10 mb-10 h-screen section-container">
+      <h1 class="font-extrabold text-3xl text-yellow-100">
+           Top Anime
+      </h1>
+      
+
+      </div>
+
+
+      <div class="grid grid-cols-4 gap-4 px-4 py-2 grid-container ">
+        
+
+        
+      </div>
+
+
+    </section>
+     
+
+    <script src="app.js">
+
+    </script>
+  </body>
+</html>
